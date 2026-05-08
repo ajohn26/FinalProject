@@ -1,0 +1,102 @@
+
+Project Overview
+
+SchedulingPro is a beginner-friendly Python and Flask web application designed to simulate a scheduling platform for veterans filing VA disability claims.
+
+The app allows users to:
+- Select a VA disability claim type
+- Find nearby contracted clinics
+- Filter clinics by distance or earliest availability
+- Choose an appointment time
+- Review appointment details
+- Receive a confirmation number
+
+This project was built as a learning project to practice:
+- Python fundamentals
+- Flask web development
+- HTML/CSS rendering in Flask
+- Routing and query parameters
+- Lists and dictionaries
+- Sorting/filtering logic
+- User workflow design
+- Healthcare scheduling concepts
+
+The current version uses mock/demo data and does not connect to real VA systems or GPS services yet.
+
+Application Workflow
+
+1. Home Page
+The user selects their claim type.
+
+2. Location Page
+The user clicks “Use my location” to simulate location services.
+
+3. Results Page
+The application filters and displays matching clinics.
+
+4. Review Page
+The user reviews their appointment details.
+
+5. Confirmation Page
+The app generates a random confirmation number and confirms the booking.
+
+Technologies Used
+- Python
+- Flask
+- HTML
+- CSS
+- Random module
+
+How to Run the Project
+
+Step 1 — Install Python
+Download Python from:
+https://www.python.org/downloads/
+
+Step 2 — Install Flask
+Run:
+pip install flask
+
+Step 3 — Run the Application
+Run:
+python app.py
+
+Step 4 — Open in Browser
+Open:
+http://127.0.0.1:5000
+
+Current Features
+- Claim selection
+- Clinic filtering
+- Appointment selection
+- Distance sorting
+- Soonest appointment sorting
+- Appointment confirmation
+- Responsive design
+
+Current Limitations
+- No real database
+- No user login system
+- No real GPS
+- No real appointment scheduling
+- No persistent storage
+
+Future Improvements
+- Database integration
+- Real GPS support
+- User accounts
+- Admin dashboard
+- Notifications
+- Real-time scheduling APIs
+- Analytics dashboard
+
+Security Improvements Needed
+- HIPAA compliance
+- Encrypted data storage
+- Authentication
+- Audit logging
+- Secure APIs
+
+Conclusion
+
+SchedulingPro is a strong beginner healthcare scheduling application that demonstrates Python programming, Flask routing, filtering logic, and healthcare workflow concepts.
